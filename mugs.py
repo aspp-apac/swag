@@ -19,12 +19,12 @@ for name in names:
     ax = fig.add_axes([0, 0, 1, 1])
     ax.imshow(template)
     ax.text(1250, 50, code_str,
-            fontname='Inconsolata',
-            fontsize=9.5,
+            fontname='Andale Mono',
+            fontsize=9,
             horizontalalignment='left',
             verticalalignment='top')
     ax.text(580, 170, f'{name}',
-            fontname='Futura',
+            fontname='Arial',
             fontstyle='italic',
             fontsize=28,
             horizontalalignment='center',
