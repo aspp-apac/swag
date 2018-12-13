@@ -12,5 +12,6 @@
 5. Run the python script `mugs.py`
 
 Finally, double check that the output images look ok. Potential problems to look for:
+- Any duplicate names, as the first image file will be overwritten by the (identical) second one. Make sure you order the right number!
 - Names that are too long may appear truncated and may need special handling.
 - Fonts specified are not installed on your machine. Either change the selected font in `mugs.py` or install the missing fonts onto your machine and teach matplotlib how to find them.
