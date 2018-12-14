@@ -19,14 +19,14 @@ for name in names:
     ax = fig.add_axes([0, 0, 1, 1])
     ax.imshow(template)
     ax.text(1250, 50, code_str,
-            fontname='Andale Mono',
+            fontname='Ubuntu Mono',
             fontsize=9,
             horizontalalignment='left',
             verticalalignment='top')
     ax.text(580, 170, f'{name}',
-            fontname='Arial',
+            fontname='Ubuntu',
             fontstyle='italic',
-            fontsize=28,
+            weight='medium', fontsize=26,
             horizontalalignment='center',
             verticalalignment='baseline')
     ax.set_axis_off()
