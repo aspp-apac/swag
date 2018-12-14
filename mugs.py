@@ -10,7 +10,7 @@ filename = 'survey.csv' if len(sys.argv) == 1 else sys.argv[1]
 
 names = list(pd.read_csv(filename)['Mug'])
 
-template = io.imread('mug-aspp-01.png')
+template = io.imread('template-mug-aspp-01.png')
 mug_size = (19.3/2.54, 7.9/2.54)
  
 for name in names:
